@@ -31,7 +31,8 @@
                 <div class="row text-left"> 
                     <div class="col-sm">
                         <h2>Who are we?</h2>
-                        <p class="py-2">We are a Christian Charity to provide excellent mainstream education to all children. Despite their social status, economic status, religious state or race, we will be serving them to grow up as responsible citizens. </p>
+                        <!-- <p class="py-2">We are a Christian Charity to provide excellent mainstream education to all children. Despite their social status, economic status, religious state or race, we will be serving them to grow up as responsible citizens. </p> -->
+                        <?php include './contents/index.aboutus.txt' ?>
                     </div>
                 </div>
             </div>
@@ -42,7 +43,6 @@
                         <p class="py-2">“To provide an excellent education to children rooted in Christian values from the Word of God.”</p>
                     </div>
                 </div>
-                    
                 <div class="row text-left">
                     <div class="col-sm">
                         <section id="page-vision-video" class="page-mission text-center">

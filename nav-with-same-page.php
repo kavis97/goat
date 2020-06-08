@@ -22,10 +22,10 @@
                                 Who are we?
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item <?php echo $aboutusIsActive ?>" href="aboutus.php">About Us</a>
-                                <a class="dropdown-item <?php echo $visionIsActive ?>" href="vision.php">Vision</a>
-                                <a class="dropdown-item <?php echo $missionIsActive ?>" href="mission.php">Mission</a>
-                                <a class="dropdown-item  <?php echo $valuesIsActive ?>" href="values.php">Values</a>
+                                <a class="dropdown-item <?php echo $aboutusIsActive ?>" href="index.php#section-aboutus">About Us</a>
+                                <a class="dropdown-item <?php echo $visionIsActive ?>" href="index.php#section-aboutus">Vision</a>
+                                <a class="dropdown-item <?php echo $missionIsActive ?>" href="index.php#section-aboutus">Mission</a>
+                                <a class="dropdown-item  <?php echo $valuesIsActive ?>" href="index.php#section-values">Values</a>
                             </div>
                         </li>
                         <li class="nav-item <?php echo $ownershipIsActive ?> dropdown">
