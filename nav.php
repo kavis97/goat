@@ -19,19 +19,10 @@
                         <li class="nav-item <?php echo $whoweareIsActive ?>">
                             <a class="nav-link" href="aboutus.php">Who are we? <span class="sr-only">(current)</span></a>
                         </li>
-                         <!-- <li class="nav-item <?php echo $whoweareIsActive ?> dropdown">
-                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Who are we?
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item <?php echo $aboutusIsActive ?>" href="aboutus.php">About Us</a>
-                                <a class="dropdown-item <?php echo $visionIsActive ?>" href="vision.php">Vision</a>
-                                <a class="dropdown-item <?php echo $missionIsActive ?>" href="mission.php">Mission</a>
-                                <a class="dropdown-item  <?php echo $valuesIsActive ?>" href="values.php">Values</a>
-                            </div>
-                        </li> -->
-                        <li class="nav-item <?php echo $ownershipIsActive ?> dropdown">
+                        <li class="nav-item <?php echo $visionIsActive ?>">
+                            <a class="nav-link" href="vision.php">Vision <span class="sr-only">(current)</span></a>
+                        </li>
+                        <!-- <li class="nav-item <?php echo $ownershipIsActive ?> dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Ownership & Structure
@@ -41,7 +32,7 @@
                                 <a class="dropdown-item <?php echo $contactusIsActive ?>" href="contactus.php">Contact Us</a>
                                 <a class="dropdown-item <?php echo $supportusIsActive ?>" href="supportus.php">Support Us</a>
                             </div>
-                        </li>
+                        </li> -->
                         <li class="nav-item <?php echo $blogIsActive ?> dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
