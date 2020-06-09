@@ -22,6 +22,12 @@
                         <li class="nav-item <?php echo $visionIsActive ?>">
                             <a class="nav-link" href="vision.php">Vision <span class="sr-only">(current)</span></a>
                         </li>
+                        <li class="nav-item <?php echo $ourprojectsIsActive ?>">
+                            <a class="nav-link" href="ourprojects.php">Our projects <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item <?php echo $contactusIsActive ?>">
+                            <a class="nav-link" href="contactus.php">Contact Us <span class="sr-only">(current)</span></a>
+                        </li>
                         <!-- <li class="nav-item <?php echo $ownershipIsActive ?> dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
