@@ -14,19 +14,22 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item <?php echo $homeIsActive ?>">
-                            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item <?php echo $whoweareIsActive ?>">
-                            <a class="nav-link" href="aboutus.php">Who are we? <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="aboutus.php">Who are we?<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item <?php echo $visionIsActive ?>">
-                            <a class="nav-link" href="vision.php">Vision <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="vision.php">Vision<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item <?php echo $ourprojectsIsActive ?>">
-                            <a class="nav-link" href="ourprojects.php">Our projects <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="ourprojects.php">Our projects<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item <?php echo $contactusIsActive ?>">
-                            <a class="nav-link" href="contactus.php">Contact Us <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="contactus.php">Contact Us<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item <?php echo $donateIsActive ?>">
+                            <a class="nav-link" href="donate.php">Donate<span class="sr-only">(current)</span></a>
                         </li>
                         <!-- <li class="nav-item <?php echo $ownershipIsActive ?> dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink"
