@@ -25,12 +25,12 @@ include './header.php' ?>
     </header>    
     
     
-    <section id="section-vision" class="section-vision">
+    <section id="page-vision" class="page-common page-vision">
         <header class="layout-vision container">
             <?php
                 foreach (glob("./contents/vision/*.html") as $filename) {
                     $contentFile =$filename;
-                    include './vision_content.php';
+                    include './content.php';
                 }
             ?>
         </header>

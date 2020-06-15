@@ -25,12 +25,12 @@ include './header.php' ?>
     </header>    
     
     
-    <section id="section-donate" class="section-donate">
+    <section id="page-donate" class="page-common page-donate">
         <header class="layout-donate container">
             <?php
                 foreach (glob("./contents/donate/*.html") as $filename) {
                     $contentFile =$filename;
-                    include './donate_content.php';
+                    include './content.php';
                 }
             ?>
         </header>

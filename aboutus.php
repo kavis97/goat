@@ -26,12 +26,12 @@ include './header.php' ?>
     </header>    
     
     
-    <section id="section-aboutus" class="section-aboutus">
+    <section id="page-aboutus" class="page-common page-aboutus">
         <header class="layout-aboutus container">
             <?php
                 foreach (glob("./contents/aboutus/*.html") as $filename) {
                     $contentFile =$filename;
-                    include './aboutus_content.php';
+                    include './content.php';
                 }
             ?>
         </header>

@@ -21,7 +21,7 @@
 
     </header>    
     
-    <section id="page-contactus" class="page-mission text-center py-5">
+    <section id="page-contactus" class="page-common page-contactus text-center py-5">
         <header class="vision-header container">
                 <h2>Contact Us</h2>
                 

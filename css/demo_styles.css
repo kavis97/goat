@@ -74,29 +74,15 @@ body {
     min-height: 90vh;
 }
 
-
-.section-aboutus {
-    /* background: url(../img/home.png?1234); */
-    /* background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; */
-    /* color: white; */
-    /* background-color:rgb(201, 222, 241); */
+.page-common {
     font-weight: 500;
 }
 
-.section-aboutus .layout-aboutus {
+.page-aboutus .layout-aboutus {
     min-height: 50vh;
 }
 
 .section-values {
-    /* background: url(../img/home.png?1234); */
-    /* background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; */
-    /* color: white; */
     background-color:rgb(234, 239, 243);
 }
 
@@ -118,104 +104,5 @@ body {
 
 /* .vision-body, */
 .site-header-common {
-    /* background: url(../img/pic1.png?1234);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* background: rgb(113, 113, 224); */
     color: white;
-}
-
-.site-header-common .layout-common {
-    /* min-height: 75vh; */
-}
-
-#vision {
-    /* background: url(../img/vision.png?1234); */
-}
-#aboutus {
-    /* background: url(../img/aboutus.png?1234); */
-}
-#mission {
-    /* background: url(../img/mission1.png?1234); */
-}
-#supportus {
-    /* background: url(../img/supportus.png?1234); */
-}
-#values {
-    /* background: url(../img/values.png?1234); */
-}
-#whyus {
-    /* background: url(../img/whyus.png?1234); */
-}
-
-#contactus {
-    /* background: url(../img/whyus.png?1234); */
-}
-#whyus {
-    /* background: url(../img/whyus.png?1234); */
-}
-/* 
-.site-header-common {
-    background: rgb(34,193,195);
-    background: radial-gradient(circle, rgba(34,193,195,1) 5%, rgba(133,253,45,1) 82%);
-} */
-
-/* .site-header-common .layout-home {
-    min-height: 100vh;
-} */
-
-
-#page-vision {
-    background: lightblue;
-}
-
-#page-mission {
-    background: lightskyblue;
-}
-
-#page-aboutus {
-    background: lightseagreen;
-}
-
-#page-values {
-    /* background: rgb(34,193,195); */
-    /* background: radial-gradient(circle, rgba(34,193,195,1) 5%, rgba(133,253,45,1) 82%); */
-}
-
-#page-whyus {
-    /* background: rgb(34,193,195); */
-    /*  background: radial-gradient(circle, rgba(34,193,195,1) 5%, rgba(133,253,45,1) 82%); */
-}
-
-#page-supportus {
-    /* background: rgb(34,193,195); */
-    /* background: radial-gradient(circle, rgba(34,193,195,1) 5%, rgba(133,253,45,1) 82%); */
-}
-
-#page-contactus {
-    /* background: rgb(34,193,195); */
-    /* background: radial-gradient(circle, rgba(34,193,195,1) 5%, rgba(133,253,45,1) 82%); */
-}
-
-#page-partners {
-    /* background: rgb(34,193,195); */
-    /* background: radial-gradient(circle, rgba(34,193,195,1) 5%, rgba(133,253,45,1) 82%); */
-}
-
-#page-financing {
-    /* background: rgb(34,193,195); */
-    /* background: radial-gradient(circle, rgba(34,193,195,1) 5%, rgba(133,253,45,1) 82%); */
-}
-
-#page-management {
-    /* background: rgb(34,193,195); */
-    /* background: radial-gradient(circle, rgba(34,193,195,1) 5%, rgba(133,253,45,1) 82%); */
-}
-
-.back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: none;
 }
