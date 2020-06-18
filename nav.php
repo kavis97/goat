@@ -1,4 +1,4 @@
-<nav class="site-nav family-sans text-uppercase navbar navbar-expand-lg  navbar-dark <?php echo $isBGDark ?>">
+<nav class="site-nav family-sans text-uppercase navbar navbar-expand-lg  navbar-dark <?php echo $isBGDark ?> <?php echo $fixedTop ?>">
             <div class="container-fluid">
                 <!-- <div class=""> -->
                     <!-- <a class="navbar-brand" href="#">
@@ -42,41 +42,6 @@
                                 <a class="dropdown-item <?php echo $supportusIsActive ?>" href="supportus.php">Support Us</a>
                             </div>
                         </li> -->
-                        <li class="nav-item <?php echo $blogIsActive ?> dropdown">
-                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Blog
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item <?php echo $partnersIsActive ?>" href="partners.php">Partners</a>
-                                <a class="dropdown-item <?php echo $financingIsActive ?>" href="financing.php">Financing</a>
-                            </div>
-                        </li>
-                        <li class="nav-item <?php echo $teamIsActive ?> dropdown">
-                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Team
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item <?php echo $managementIsActive ?>" href="management.php">Management</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Social
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="https://www.facebook.com/groups/119717914736830/" target="_blank">
-                                    <i class="fab fa-facebook"></i> Facebook
-                                </a>
-                                <a class="dropdown-item" href="https://twitter.com/NewGraceCommun1" target="_blank">
-                                    <i class="fab fa-twitter"></i> Twitter</a>
-                                <a class="dropdown-item" href="https://www.youtube.com/channel/UCvu1WHgUQZIy0JxTCRtQbSg" target="_blank">
-                                    <i class="fab fa-youtube"></i> Youtube
-                                </a>
-                            </div>
-                        </li>
                         <li class="nav-item">
                             <div class="">
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">

@@ -14,6 +14,7 @@ include './header.php' ?>
 
         <?php 
         $isBGDark='bg-dark';
+        $fixedTop='fixed-top';
         $ourprojectsIsActive='active';
         include './nav.php' 
         ?>
