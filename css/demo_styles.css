@@ -57,7 +57,7 @@
 body {
     font-family: var(--font-family-text);
     /* color: var(--color-text); */
-    font-weight: 800;
+    font-weight: 500;
     font-size: medium;
 }
 
@@ -74,8 +74,8 @@ body {
     min-height: 90vh;
 }
 
-.page-common {
-    font-weight: 500;
+.site-nav {
+    font-weight: 800;
 }
 
 .page-aboutus .layout-aboutus {

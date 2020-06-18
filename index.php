@@ -9,7 +9,7 @@
     
 </head>
 
-<body>
+<body class="page-index">
     
     <header id="home" class="section-header-home">
         <?php
