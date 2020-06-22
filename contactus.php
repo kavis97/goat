@@ -68,7 +68,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="row text-left">                    
+                    <!-- <div class="row text-left">                    
                         <div class="mt-5 col-sm">
                             <form>
                                 <div class="form-group">
@@ -86,14 +86,8 @@
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
                         </div>
-                    </div>
-                    
-                   
+                    </div> -->
                 </div>  
-                
-
-
-
         </header>
     </section>
     <!-- <section id="page-" class="page-mission text-center py-5">
@@ -104,7 +98,7 @@
     </section> -->
 
 
-   <section>
+   <section class="fixed-bottom">
        <?php include './footer.php' ?>
     </section>
 
