@@ -16,6 +16,9 @@
                         <li class="nav-item <?php echo $homeIsActive ?>">
                             <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
                         </li>
+                        <li class="nav-item <?php echo $newslettersIsActive ?>">
+                            <a class="nav-link" href="newsletters.php">News Letters<span class="sr-only">(current)</span></a>
+                        </li>
                         <li class="nav-item <?php echo $whoweareIsActive ?>">
                             <a class="nav-link" href="aboutus.php">Who are we?<span class="sr-only">(current)</span></a>
                         </li>
