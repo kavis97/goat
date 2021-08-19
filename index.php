@@ -14,16 +14,23 @@
     <header id="home" class="section-header-home">
         <?php
             $homeIsActive='active';
+            $isBGDark='bg-dark';
             include './nav.php' 
         ?>
-       
-       <section class="layout-home text-light d-flex align-items-center">
-            <!-- <div class="container"> -->
-                <!-- <h4>“To provide an excellent education to children rooted in Christian values from the Word of God.”</h4> -->
-            <!-- </div> -->
-        </section>
-       
     </header>
+    <?php
+        include './carousel.php' 
+    ?>
+
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
     <section id="section-aboutus" class="section-aboutus">
         <header class="layout-aboutus container">
