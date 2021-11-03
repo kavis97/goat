@@ -9,28 +9,21 @@
     
 </head>
 
-<body class="page-index">
+<body>
     
     <header id="home" class="section-header-home">
         <?php
             $homeIsActive='active';
-            $isBGDark='bg-dark';
             include './nav.php' 
         ?>
+       
+       <section class="layout-home text-light d-flex align-items-center">
+            <!-- <div class="container"> -->
+                <!-- <h4>“To provide an excellent education to children rooted in Christian values from the Word of God.”</h4> -->
+            <!-- </div> -->
+        </section>
+       
     </header>
-    <?php
-        include './carousel.php' 
-    ?>
-
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
     <section id="section-aboutus" class="section-aboutus">
         <header class="layout-aboutus container">
@@ -38,8 +31,7 @@
                 <div class="row text-left"> 
                     <div class="col-sm">
                         <h2>Who are we?</h2>
-                        <!-- <p class="py-2">We are a Christian Charity to provide excellent mainstream education to all children. Despite their social status, economic status, religious state or race, we will be serving them to grow up as responsible citizens. </p> -->
-                        <?php include './contents/index.aboutus.txt' ?>
+                        <p class="py-2">We are a Christian Charity to provide excellent mainstream education to all children. Despite their social status, economic status, religious state or race, we will be serving them to grow up as responsible citizens. </p>
                     </div>
                 </div>
             </div>
@@ -50,6 +42,7 @@
                         <p class="py-2">“To provide an excellent education to children rooted in Christian values from the Word of God.”</p>
                     </div>
                 </div>
+                    
                 <div class="row text-left">
                     <div class="col-sm">
                         <section id="page-vision-video" class="page-mission text-center">
