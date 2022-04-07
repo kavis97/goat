@@ -35,43 +35,38 @@
                     </div>
                 </div>
             </div>
-            <div class="container py-5">
+            
+
+            <div class="container-fluid py-5">
                 <div class="row text-left">
                     <div class="col-sm">
                         <h2>Vision</h2>
                         <p class="py-2">“To provide an excellent education to children rooted in Christian values from the Word of God.”</p>
                     </div>
                 </div>
-                    
+
                 <div class="row text-left">
+                    <?php 
+                        $urls = array("https://www.youtube.com/embed/1Hczl5NFTQY",
+                                      "https://www.youtube.com/embed/pXlXu78GR5I");
+                        foreach ($urls as $url)  {
+                            $urlToInclude =$url;
+                            include './include_video.php';
+                        }
+                    ?>
+                </div>       
+            </div>
+            
+            <div class="container py-5">
+            <div class="row text-left">
                     <div class="col-sm">
-                        <section id="page-vision-video" class="page-mission text-center">
-                            <header class="vision-header container">
-                                <div class="container" style="margin-top: 1em;">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe src="https://www.youtube.com/embed/1Hczl5NFTQY?autoplay=0&rel=0" frameborder="0"
-                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </header>
-                        </section>
-                    </div>
-                    <div class="col-sm">
-                        <section id="page-vision-video" class="page-mission text-center">
-                            <header class="vision-header container">
-                                <div class="container" style="margin-top: 1em;">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe src="https://www.youtube.com/embed/pXlXu78GR5I" frameborder="0"
-                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </header>
-                        </section>
+                        <h2>Students at school</h2>
                     </div>
                 </div>
+
+                <?php include './activities.php' ?>
             </div>
+
             <div class="container py-5">
                 <div class="row text-left">
                     <div class="col-sm">
